@@ -1,0 +1,53 @@
+body{
+  background-image: url('photos/dskt.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+
+h1{
+  text-align: center;
+  color: black;
+  padding: 10px;
+}
+
+nav{
+  background-color: teal;
+  display: grid;
+  place-items:center;
+  justify-content: space-evenly;
+
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 10pxs;
+  gap: 30px;
+}
+
+nav ul li a{
+  display: grid;
+  padding: 25pxs;
+  text-decoration: none;
+  color: black;
+  transition: 0.2s ease-in;
+  font-size: 30px;
+}
+
+nav ul li a:hover{
+  background-color: pink;
+  color: black;
+}
+
+.item{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 30px 20px;
+  grid-row-gap: 20px;
+  
+  }
+

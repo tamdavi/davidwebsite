@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Tamakloe | Services</title>
+  <link rel="stylesheet" href="dtstyle.css" type="text/css" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 150%;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background-color: peachpuff;
+      color: #2c2c2c;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 18px 0;
+      margin: 0;
+      background-color: #dcbfa6;
+      border-bottom: 2px solid #b89c7e;
+      font-size: 18px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #2c2c2c;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    nav ul li a:hover {
+      border-bottom: 2px solid #2c2c2c;
+      padding-bottom: 4px;
+    }
+
+    .services-section {
+      flex: 1;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px 5%;
+      gap: 40px;
+      justify-content: space-between;
+    }
+
+    .services-text {
+      flex: 1 1 500px;
+      min-width: 300px;
+    }
+
+    .services-text h1 {
+      font-size: 42px;
+      border-bottom: 1px solid #b6a78a;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .services-block {
+      margin-bottom: 25px;
+      width: 100%;
+      min-width: 300px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border: 2px solid #d3c5af;
+    }
+
+    .services-block h2 {
+      font-size: 24px;
+      color: #3a2f1d;
+      margin-bottom: 10px;
+    }
+
+    .services-block p {
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 900px) {
+      .services-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+      }
+
+      .services-text h1 {
+        text-align: center;
+      }
+
+      .services-block {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+    </ul>
+  </nav>
+
+  <section class="services-section">
+    <div class="services-text">
+      <h1>Our Services</h1>
+
+      <div class="services-block">
+        <h2>🎭 Theatre & Event Management</h2>
+        <p>We specialize in providing seamless front-of-house support for theaters and event venues. Our team ensures smooth operations, audience engagement, and effective coordination behind the scenes.</p>
+      </div>
+
+      <div class="services-block">
+        <h2>📻 Media Production & Content Creation</h2>
+        <p>From research to production, we help create engaging media content for radio and television. Our team works alongside you to deliver professional, captivating broadcasts and productions.</p>
+      </div>
+
+      <div class="services-block">
+        <h2>💼 Administrative & Customer Service Solutions</h2>
+        <p>Our team handles customer service and administrative tasks with a focus on efficiency, accuracy, and empathy. Whether it’s data management or public relations, we’re here to help.</p>
+      </div>
+
+      <div class="services-block">
+        <h2>🧠 Tech Consulting & Education</h2>
+        <p>We provide tech consultation, training, and support, ensuring that your organization stays up-to-date with the latest trends in technology, especially with a human-centered approach.</p>
+      </div>
+
+      <div class="services-block">
+        <h2>🎤 Music & Performance Coaching</h2>
+        <p>Our coaching service helps aspiring artists refine their skills in music performance, songwriting, and vocal techniques. We believe in the power of expression through art.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

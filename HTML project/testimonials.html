@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Tamakloe | Testimonials</title>
+  <link rel="stylesheet" href="dtstyle.css" type="text/css" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 150%;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background-color: peachpuff;
+      color: #2c2c2c;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 18px 0;
+      margin: 0;
+      background-color: #dcbfa6;
+      border-bottom: 2px solid #b89c7e;
+      font-size: 18px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #2c2c2c;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    nav ul li a:hover {
+      border-bottom: 2px solid #2c2c2c;
+      padding-bottom: 4px;
+    }
+
+    .testimonials-section {
+      flex: 1;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px 5%;
+      gap: 40px;
+      justify-content: space-between;
+    }
+
+    .testimonials-text {
+      flex: 1 1 500px;
+      min-width: 300px;
+    }
+
+    .testimonials-text h1 {
+      font-size: 42px;
+      border-bottom: 1px solid #b6a78a;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .testimonial-block {
+      width: 100%;
+      min-width: 300px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border: 2px solid #d3c5af;
+      margin-bottom: 25px;
+    }
+
+    .testimonial-block h2 {
+      font-size: 22px;
+      color: #3a2f1d;
+      margin-bottom: 10px;
+    }
+
+    .testimonial-block p {
+      font-size: 17px;
+      line-height: 1.7;
+      font-style: italic;
+    }
+
+    .testimonial-author {
+      margin-top: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #3a2f1d;
+    }
+
+    @media (max-width: 900px) {
+      .testimonials-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+      }
+
+      .testimonials-text h1 {
+        text-align: center;
+      }
+
+      .testimonial-block {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+    </ul>
+  </nav>
+
+  <section class="testimonials-section">
+    <div class="testimonials-text">
+      <h1>Client Testimonials</h1>
+
+      <div class="testimonial-block">
+        <h2>"A Game-Changer in Event Management!"</h2>
+        <p>"David's attention to detail and ability to keep everything running smoothly is unparalleled. Our event went off without a hitch, and our guests were thoroughly impressed. We couldn’t have asked for a better team to work with!"</p>
+        <div class="testimonial-author">- Elsie Whyte, Event Organizer</div>
+      </div>
+
+      <div class="testimonial-block">
+        <h2>"A True Professional in the Media Industry"</h2>
+        <p>"David’s expertise in media production helped us elevate our broadcast to new heights. From research to logistics, he was instrumental in ensuring everything ran smoothly and professionally. Highly recommend!"</p>
+        <div class="testimonial-author">- John Smith, Producer</div>
+      </div>
+
+      <div class="testimonial-block">
+        <h2>"Exceptional Administrative Skills!"</h2>
+        <p>"David’s work in administration at The Trust Hospital has been exemplary. He handles tasks with incredible accuracy and efficiency, always with a positive attitude. A true asset to any team!"</p>
+        <div class="testimonial-author">- Daniel Clottey, Hospital Administrator</div>
+      </div>
+
+      <div class="testimonial-block">
+        <h2>"Tech Expertise You Can Rely On!"</h2>
+        <p>"David helped us implement a new tech solution that vastly improved our workflow. His knowledge of both tech and human behavior helped us bridge the gap and integrate it seamlessly into our organization."</p>
+        <div class="testimonial-author">- Samuel Ofori, IT Consultant</div>
+      </div>
+
+      <div class="testimonial-block">
+        <h2>"Incredible Music Coaching!"</h2>
+        <p>"As a singer and songwriter, I was stuck in a creative rut until I started working with David. His guidance has helped me refine my vocal skills and reignite my passion for music. Truly inspiring!"</p>
+        <div class="testimonial-author">- GabiNova, Music Artist</div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
